@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Portal
+  - Enemy
+  - MonsterHitbox
+  - DamageBox
+  - PlayerHitbox
+  - Bullet
+  - StageController
+  - BGM
+  - CakeCat
+  - YellowJellyBear
+  - PurpleJellyBear
+  - MintBunny
+  - Glitch
+  - GroundExDalma
+  - Dalma
+  - GameOverUICC
+  - GameOverUIYJB
+  - GameOverUIPJB
+  - GameOverUIMB
+  - OpenBossStage
+  - CloseBossStage
+  - BossBoundary
+  - Boss
+  - GroundForDalma
+  - Tanuki
+  - Fade_Effect
+  - AudioManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - Ground
+  - Hitbox
+  - DamageBox
+  - GroundExDalma
+  - Dalma
+  - Boss
+  - Tanuki
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

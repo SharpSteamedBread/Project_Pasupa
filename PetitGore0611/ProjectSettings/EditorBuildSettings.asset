@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Test/Main.unity
+    guid: b3a4577771ec1f040ad2bd481ce35274
+  - enabled: 1
+    path: Assets/Scenes/Test/IntroSceneVideo.unity
+    guid: e9821cea876ca0245ad96e7dfe7b200f
+  - enabled: 1
+    path: Assets/Scenes/Test/Openning.unity
+    guid: eafd4d1de89e6a9458a9436dea979923
+  - enabled: 1
+    path: Assets/Scenes/Stage1-1.unity
+    guid: f4e511ff22b60064b8b4175738c02023
+  - enabled: 1
+    path: Assets/Scenes/Stage1-2.unity
+    guid: 1be542a1e50a6f647a7d2cf6fb0a4764
+  - enabled: 1
+    path: Assets/Scenes/Stage1-3.unity
+    guid: 0582fccc58ebb39468fa7de768817a0e
+  - enabled: 1
+    path: Assets/Scenes/Template/MagicStore.unity
+    guid: 24465fb4fd354b045b4499b4c975b159
+  - enabled: 1
+    path: Assets/Scenes/Test/BossIntro.unity
+    guid: a6f36cad0aa877d4492581a98426f466
+  - enabled: 1
+    path: Assets/Scenes/Test/BossClear.unity
+    guid: a763f952fdeb9bc448a1bef069949f44
+  - enabled: 1
+    path: Assets/Scenes/Test/CreditVideo.unity
+    guid: acfff82e3d95a72498ffc8c49a00823c
+  - enabled: 1
+    path: Assets/Scenes/Test/Main2.unity
+    guid: 2ee1cd01e32bf6646b20642dfd6dae7f
+  m_configObjects: {}

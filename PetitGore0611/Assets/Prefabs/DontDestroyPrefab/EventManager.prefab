@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5112252201422881891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5112252201422881890}
+  m_Layer: 0
+  m_Name: TextImage_targetpos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5112252201422881890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252201422881891}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6, y: -0.122, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5112252202653186314}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5112252201554990714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5112252201554990713}
+  m_Layer: 0
+  m_Name: Sb_targetpos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5112252201554990713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252201554990714}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5112252202653186314}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5112252201947545924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5112252201947545923}
+  m_Layer: 0
+  m_Name: 'Markpos '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5112252201947545923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252201947545924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.514, y: -0.965, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5112252202653186314}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5112252202653186316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5112252202653186314}
+  - component: {fileID: 5112252202653186315}
+  - component: {fileID: 5112252202653186313}
+  - component: {fileID: 5112252202653186312}
+  m_Layer: 0
+  m_Name: EventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5112252202653186314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252202653186316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5112252201947545923}
+  - {fileID: 5112252201554990713}
+  - {fileID: 5112252201422881890}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5112252202653186315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252202653186316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc94871eeb6fed42b0ee483056d4557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SubelObj: {fileID: 0}
+  PlayerObj: {fileID: 0}
+  PanelObj: {fileID: 0}
+  objectToSpawn: {fileID: 1565429632947831503, guid: eaa1bd0ea9b6d34488b7e428d44e2758, type: 3}
+  objectToSpawn2: {fileID: 6277321137738609050, guid: 181cdde85010f604b804b33d36a4c077, type: 3}
+  spawnPoint: {fileID: 5112252201947545923}
+  animCount: 0
+  animCountMark: 0
+  isTalking: 0
+--- !u!114 &5112252202653186313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252202653186316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235a9cb70e34d8a48a27c52fc91733ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Add_data1: {fileID: 6868066866426245523, guid: 1208d6f0a924b4f46886f7b9e1a30742, type: 3}
+  Add_data2: {fileID: 7969804986111004022, guid: 3fe2cd3a26ffa1e48a5f01bd4a68ffab, type: 3}
+  Add_data3: {fileID: 6935417850359849074, guid: 4b7902d4a183aed4ab23e772e6f9a091, type: 3}
+  spawnPoint: {fileID: 5112252201422881890}
+  LeftNamepos: {fileID: 0}
+  RightNamepos: {fileID: 0}
+  RiricaImage: {fileID: 0}
+  SubelImage: {fileID: 0}
+  BossImage: {fileID: 0}
+  DialogueBox: {fileID: 0}
+  txt_Dialogue: {fileID: 0}
+  WhoName: {fileID: 0}
+  RiricaName: {fileID: 0}
+  SubelName: {fileID: 0}
+  BossName: {fileID: 0}
+  LeftCG: {fileID: 0}
+  RightCG: {fileID: 0}
+  dialogue:
+  - Text: "\u2026\r\n"
+    cg: {fileID: 21300000, guid: 3a1d3fc29c2742d4180e9549d41664b2, type: 3}
+    left: 1
+    Ririca: 1
+    Subel: 0
+    Boss: 0
+    Who: 0
+  - Text: "\uB9AC\uB9AC\uCE74~!\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 0
+    Boss: 0
+    Who: 1
+  - Text: "\uC5EC\uAE30 \uC788\uC5C8\uAD6C\uB098! \uB4DC\uB514\uC5B4 \uCC3E\uC558\uB124!\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uB610 \uD37C\uC9C8\uB7EC \uB0AE\uC7A0\uC774\uB77C\uB3C4 \uC790\uACE0
+      \uC788\uB358 \uAC70\uC57C?\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uADF8\uBCF4\uB2E4 \uC9C0\uAE08 \uC774\uB7F4 \uB54C\uAC00 \uC544\uB0D0!
+      \uC5B4\uC11C \uC11C\uB458\uB7EC \uC138\uACC4\uB97C \uAD6C\uD558\uB7EC \uAC00\uC790!\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uBB50\uC57C? \uADF8 \uC544\uBB34\uAC83\uB3C4 \uBAA8\uB974\uACA0\uB2E4\uB294
+      \uCC10\uBE75 \uAC19\uC740 \uC5BC\uAD74\uC740.\r\n"
+    cg: {fileID: 21300000, guid: 7477e276f10cef34aa74ba572e7dac42, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC138\uACC4\uB97C \uAD6C\uD558\uAE30 \uC704\uD574 \uB098\uC640 \uC57D\uC18D\uD588\uC5C8\uC796\uC544!\r\n"
+    cg: {fileID: 21300000, guid: 87696615fa87f8647950a66d098e6b45, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC9C0\uAD6C\uC5D0 \uC058\uB760 \uBC14\uC774\uB7EC\uC2A4\uAC00 \uD37C\uC9C0\uACE0
+      \uC788\uB2E4\uAD6C!\r\n"
+    cg: {fileID: 21300000, guid: 87696615fa87f8647950a66d098e6b45, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC124\uB9C8.. \uADF8\uC0C8 \uB610 \uAE4C\uBA39\uC740 \uAC70\uC57C?\r\n"
+    cg: {fileID: 21300000, guid: 87696615fa87f8647950a66d098e6b45, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: ...
+    cg: {fileID: 21300000, guid: 3a1d3fc29c2742d4180e9549d41664b2, type: 3}
+    left: 1
+    Ririca: 1
+    Subel: 0
+    Boss: 0
+    Who: 0
+  - Text: ...
+    cg: {fileID: 21300000, guid: b7fa573902067d846b2a7ddd2a3fbfb1, type: 3}
+    left: 1
+    Ririca: 1
+    Subel: 0
+    Boss: 0
+    Who: 0
+  - Text: "\uC544\uD734.. \uC9C0\uAD6C\uB97C \uC9C0\uD0A4\uB294 \uB9C8\uBC95 \uC18C\uB140\uAC00
+      \uC774 \uBAA8\uC591 \uC774 \uAF34\uC774\uB77C\uB2C8\r\n"
+    cg: {fileID: 21300000, guid: 8fe215a119bca20458269f3186a2d44b, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uD55C \uBC88\uB9CC \uB2E4\uC2DC \uC124\uBA85\uD574 \uC904 \uD14C\uB2C8\uAE4C
+      \uC9D1\uC911\uD574\uC11C \uB4E4\uC5B4!\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC9C0\uAE08 \uC9C0\uAD6C\uC5D4 \uC058\uB760 \uBC14\uC774\uB7EC\uC2A4\uB77C\uB294
+      \uAC15\uB825\uD55C \uB188\uC774 \uC9C0\uAD6C\uB97C \uACF5\uACA9\uD558\uACE0
+      \uC788\uC5B4.\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uAC00\uC7A5 \uD070 \uD2B9\uC9D5\uC73C\uB860 \uAC10\uC5FC\uB418\uBA74
+      \uBAB8\uC18D \uC288\uAC00\uB4E4\uC744 \uB179\uC774\uACE0 \uB048\uC801\uD558\uAC8C
+      \uB9CC\uB4E4\uC5B4\uBC84\uB9B0\uB2E4\uB294 \uC810\uC774\uC57C.\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uACE4\uB780\uD558\uB2E4\uAD6C~ \uBB50\uCC98\uB7FC \uC794\uB729 \uACF5\uB4E4\uC778
+      \uCCB4\uB9AC \uC7A5\uC2DD\uC774 \uB179\uC544\uB0B4\uB9AC\uB294 \uAC74\r\n"
+    cg: {fileID: 21300000, guid: 3c31a85ef9af41147bc0ff67fdb5f766, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uB610\uD55C, \uAC10\uC5FC\uB41C \uC790\uB294 \uC8FC\uBCC0 \uC778\uBB3C\uB4E4\uC744
+      \uAD6C\uBD84 \uBABB \uD558\uACE0 \uACF5\uACA9\uC131\uC774 \uC9D9\uC5B4\uC9C4\uB2E4\uB294
+      \uC810\uC774 \uC788\uC5B4\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uD55C\uB9C8\uB514\uB85C \uADF8\uB0E5 \uBBF8\uCCD0\uBC84\uB9AC\uB294 \uAC83
+      \uAC19\uC544.\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uD3C9\uD654\uB85C\uC6B4 \uC288\uAC00\uB79C\uB4DC\uC5D0 \uADF8\uB7F0 \uC874\uC7AC\uB294
+      \uB9E4\uC6B0 \uC704\uD5D8\uD574. \uBAA8\uB450\uB4E4 \uBD80\uC234\uC838\uBC84\uB9B4\uAC70\uB77C\uACE0\r\n"
+    cg: {fileID: 21300000, guid: 3c31a85ef9af41147bc0ff67fdb5f766, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uD2B9\uD788 \uB098\uCC98\uB7FC \uADC0\uC5FD\uACE0 \uAE5C\uCC0D\uD558\uACE0
+      \uC5F0\uC57D\uD55C \uC544\uC774\uB294 \uB354\uB354\uC6B1!\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\u2026\r\n"
+    cg: {fileID: 21300000, guid: 3a1d3fc29c2742d4180e9549d41664b2, type: 3}
+    left: 1
+    Ririca: 1
+    Subel: 0
+    Boss: 0
+    Who: 0
+  - Text: "\u2026\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uADF8\uB7F0 \uB208\uC73C\uB85C \uCCD0\uB2E4\uBCF4\uBA74 \uACE4\uB780\uD574~\r\n"
+    cg: {fileID: 21300000, guid: 8251d9654e2524446825ca01a72fba57, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uD558\uC5EC\uD2BC \uB2E4\uB978 \uAD6C\uC5ED\uC758 \uB9C8\uBC95\uC18C\uB140\uB4E4\uC5D0\uAC8C\uB3C4
+      \uB3C4\uC6C0\uC744\_\uC694\uCCAD\uD574 \uBD24\uB294\uB370\_\uBAA8\uB450 \uB140\uC11D\uC5D0\uAC8C
+      \uB2F9\uD55C \uB4A4\uC600\uC5B4.\r\n"
+    cg: {fileID: 21300000, guid: 3c31a85ef9af41147bc0ff67fdb5f766, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC804\uBD80 \uB9DB\uD0F1\uC774\uAC00 \uAC00\uBC84\uB824\uC11C \uC0B4\uBC8C\uD558\uB2E4\uACE0!\r\n"
+    cg: {fileID: 21300000, guid: 87696615fa87f8647950a66d098e6b45, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC138\uACC4\uB97C \uC9C0\uD0A4\uB294 \uB9C8\uBC95 \uC18C\uB140\uAC00
+      \uC138\uACC4\uB97C \uACF5\uACA9\uD558\uB2E4\uB2C8! \uC788\uC744 \uC218 \uC5C6\uB294
+      \uC77C\uC774\uC57C.\r\n"
+    cg: {fileID: 21300000, guid: 3c31a85ef9af41147bc0ff67fdb5f766, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC774\uB300\uB85C\uB77C\uBA74 \uC138\uACC4\uAC00 \uC704\uD5D8\uD574!
+      \uB9AC\uB9AC\uCE74 \uBD80\uB514 \uB124\uAC00 \uC138\uACC4\uB97C \uAD6C\uD574\uC918!\r\n"
+    cg: {fileID: 21300000, guid: 3c31a85ef9af41147bc0ff67fdb5f766, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\u2026!\r\n"
+    cg: {fileID: 21300000, guid: 3a1d3fc29c2742d4180e9549d41664b2, type: 3}
+    left: 1
+    Ririca: 1
+    Subel: 0
+    Boss: 0
+    Who: 0
+  - Text: "\uC57C\uD638~! \uC5ED\uC2DC \uB9AC\uB9AC\uCE74\uC57C. \uBBFF\uACE0 \uC788\uC5C8\uB2E4\uACE0!\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC6B0\uC120 \uAC00\uAE4C\uC6B4 \uACF3\uBD80\uD130 \uD574\uACB0\uD558\uB7EC
+      \uAC00\uBCFC\uAE4C?\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC5EC\uAE30\uC11C \uC81C\uC77C \uAC00\uAE4C\uC6B4 \uACF3\uC740.. \uB2EC\uCF64
+      \uC232\uC18D \uD558\uB098\uBB34\uB77C \uC2E0\uC0AC\uACA0\uB124!\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+  - Text: "\uC88B\uC544! \uADF8\uB7FC \uBC14\uB85C \uAC00\uBCF4\uC790\uACE0!\r\n"
+    cg: {fileID: 21300000, guid: 17e1f386cd63e7e47a8cdbb8ff4bca2c, type: 3}
+    left: 0
+    Ririca: 0
+    Subel: 1
+    Boss: 0
+    Who: 0
+--- !u!114 &5112252202653186312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112252202653186316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497edd1a75f16134e95ae03d1a78cbe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
